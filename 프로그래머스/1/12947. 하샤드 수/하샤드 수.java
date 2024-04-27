@@ -8,6 +8,6 @@ class Solution {
         for(int digit : arr) {
             sum = sum + digit;
         }
-        return x % sum == 0 ? true : false;
+        return x % sum == 0;
     }
 }
