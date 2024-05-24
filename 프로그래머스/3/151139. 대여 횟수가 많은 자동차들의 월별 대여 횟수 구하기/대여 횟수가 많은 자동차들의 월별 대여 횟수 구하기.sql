@@ -10,5 +10,5 @@ where month(START_DATE) between 8 and 10
 group by CAR_ID
 having count(*) >4
 )
-group by 2 ,   1
+group by 2, 1
 order by 1, 2 desc
